@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sTextBoxBg","path":"sprites/sTextBoxBg/sTextBoxBg.yy",},"order":5,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":0,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":1,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":5,},
@@ -8,8 +9,11 @@
     {"id":{"name":"rVillage","path":"rooms/rVillage/rVillage.yy",},"order":2,},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},"order":2,},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":1,},
+    {"id":{"name":"fText","path":"fonts/fText/fText.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},"order":1,},
+    {"id":{"name":"NineSliceBoxStretched","path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},"order":6,},
+    {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":4,},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},"order":1,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":4,},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},"order":1,},

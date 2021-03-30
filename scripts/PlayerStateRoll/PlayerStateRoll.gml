@@ -6,10 +6,6 @@ function PlayerStateRoll(){
 	
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedRoll);
 	
-	if(PlayerCollision()) {
-		// Bonk animation / screen shake
-	}
-	
 	sprite_index = spriteRoll;
 	var _totalFrames = sprite_get_number(sprite_index)/4;
 	// Set image index based on how much left of the roll is there
@@ -20,4 +16,9 @@ function PlayerStateRoll(){
 	if(moveDistanceRemaining <= 0) {
 		state = PlayerStateFree;	
 	}
+	
+	if(PlayerCollision()) {
+		ScreenShake(2, 15);
+	}
+	
 }
