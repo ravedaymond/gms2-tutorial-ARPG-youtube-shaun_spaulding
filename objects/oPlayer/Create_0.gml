@@ -3,6 +3,7 @@ collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 image_speed = 0;
 
 state = PlayerStateFree;
+lastState = state;
 
 hSpeed = 0;
 vSpeed = 0;
