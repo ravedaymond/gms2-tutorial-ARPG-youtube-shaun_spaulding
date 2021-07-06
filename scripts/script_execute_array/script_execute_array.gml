@@ -4,7 +4,7 @@
 /// @arg args[]
 function script_execute_array(script, args) {
 	
-	switch(array_length_1d(args)) {
+	switch(array_length(args)) {
 		case 1: return script_execute(script, args[0]);
 		case 2: return script_execute(script, args[0], args[1]);
 		case 3: return script_execute(script, args[0], args[1], args[2]);

@@ -14,7 +14,7 @@ function NewTextBox(_text){
 		if(argument_count > 2) {
 			// Trim responses string
 			responseMessages = argument[2];
-			for(var i = 0; i < array_length_1d(responseMessages); i++) {
+			for(var i = 0; i < array_length(responseMessages); i++) {
 				// Target ':' to split response messages
 				var _markerPosition = string_pos(":", responseMessages[i]);
 				// Copy number identifier for response 

@@ -1,6 +1,6 @@
 /// @description Set entity defaults
-image_speed = entityImageSpeed;
-z = entityStartingZ;
+image_speed = 0;
+z = 0;
 
 #region Shaders
 flash = 0;

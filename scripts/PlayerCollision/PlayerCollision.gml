@@ -32,12 +32,10 @@ function PlayerCollision(){
 			_entityCount--;
 		}
 	}
+	ds_list_clear(_entityList);
 	
 	// Commit horizontal movement
 	x += hSpeed;
-	
-	// Clear entity list for vertical check
-	ds_list_clear(_entityList);
 	
 	// Vertical Tiles
 	if(tilemap_get_at_pixel(collisionMap, x, y+vSpeed)) {
@@ -65,10 +63,10 @@ function PlayerCollision(){
 			_entityCount--;
 		}
 	}
+	ds_list_destroy(_entityList);
 	
 	// Commit vertical movement
 	y += vSpeed;
 	
-	ds_list_destroy(_entityList);
 	return _collision;
 }

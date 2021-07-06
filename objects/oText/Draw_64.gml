@@ -13,7 +13,7 @@ if(responseMessages[0] != -1 && textProgress >= string_length(text)) {
 	// Loop through all messages in response and draw each
 	// Add a '> ' and ' <' to the left and right side indicating
 	// current selected response
-	for(var i=0; i<array_length_1d(responseMessages); i++) {
+	for(var i=0; i<array_length(responseMessages); i++) {
 		_print += "\n";
 		if(i == responseSelected) _print += "> ";
 		_print += responseMessages[i];
