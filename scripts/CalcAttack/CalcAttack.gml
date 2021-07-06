@@ -18,7 +18,7 @@ function CalcAttack(hitbox){
 			}
 		}
 	}
-	
+	// Cleanup local ds list
 	ds_list_destroy(hitByAttackNow);
 	mask_index = sPlayer;
 }
