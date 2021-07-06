@@ -16,7 +16,7 @@ function PlayerCollision(){
 	// Vertical Tiles
 	if(tilemap_get_at_pixel(collisionMap, x, y+vSpeed)) {
 		y -= y%TILE_SIZE; // Move to top edge of colliding tile
-		if(sign(vSpeed) == 1) y += TILE_SIZE-1;
+		if(sign(vSpeed) == 1) y += TILE_SIZE-1; // Move to t he bottom edge of colliding tile
 		vSpeed = 0;
 		_collision = true;
 	}
