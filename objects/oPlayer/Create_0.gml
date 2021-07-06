@@ -4,6 +4,7 @@ image_speed = 0;
 
 state = PlayerStateFree;
 lastState = state;
+stateAttack = PlayerAttackSlash;
 
 hSpeed = 0;
 vSpeed = 0;
