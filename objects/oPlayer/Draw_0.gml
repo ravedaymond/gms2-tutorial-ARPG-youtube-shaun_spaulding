@@ -1,6 +1,6 @@
 /// @description Draw Player and Shadow
-
 draw_sprite(sShadow, 0, x, y);
+
 draw_sprite_ext(
 	sprite_index, 
 	image_index, 

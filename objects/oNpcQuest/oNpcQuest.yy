@@ -29,6 +29,7 @@
     {"propertyId":{"name":"entityNPC","path":"objects/oEntity/oEntity.yy",},"objectId":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"entityActivateArgs","path":"objects/oEntity/oEntity.yy",},"objectId":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"value":"[\"NPC placeholder message.\", 1]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"entityActivateScript","path":"objects/oEntity/oEntity.yy",},"objectId":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"value":"NewTextBox","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityShadow","path":"objects/oEntity/oEntity.yy",},"objectId":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Entities",

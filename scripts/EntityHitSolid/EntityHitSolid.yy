@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "UI",
-    "path": "folders/Scripts/UI.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "NineSliceBoxStretched",
+  "name": "EntityHitSolid",
   "tags": [],
   "resourceType": "GMScript",
 }

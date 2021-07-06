@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
-  "bbox_right": 13,
-  "bbox_top": 1,
+  "bbox_left": 1,
+  "bbox_right": 15,
+  "bbox_top": 3,
   "bbox_bottom": 14,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5bec4c0a-d964-4114-9b67-3c65751a819e","path":"sprites/sSignpost/sSignpost.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5bec4c0a-d964-4114-9b67-3c65751a819e","path":"sprites/sSignpost/sSignpost.yy",},"LayerId":{"name":"09c690da-b684-4551-bc59-a73670ce7e6f","path":"sprites/sSignpost/sSignpost.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSignpost","path":"sprites/sSignpost/sSignpost.yy",},"resourceVersion":"1.0","name":"5bec4c0a-d964-4114-9b67-3c65751a819e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a8f28c9e-edb1-4814-9ab7-31d4da67c6a9","path":"sprites/sPlantB/sPlantB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a8f28c9e-edb1-4814-9ab7-31d4da67c6a9","path":"sprites/sPlantB/sPlantB.yy",},"LayerId":{"name":"904ffafb-7a04-42e9-9ca6-0e8d15715eab","path":"sprites/sPlantB/sPlantB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPlantB","path":"sprites/sPlantB/sPlantB.yy",},"resourceVersion":"1.0","name":"a8f28c9e-edb1-4814-9ab7-31d4da67c6a9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sSignpost","path":"sprites/sSignpost/sSignpost.yy",},
+    "spriteId": {"name":"sPlantB","path":"sprites/sPlantB/sPlantB.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d32bd98b-7788-4fdf-ba8c-792e41ac4cbb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5bec4c0a-d964-4114-9b67-3c65751a819e","path":"sprites/sSignpost/sSignpost.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"49705475-a1a5-4512-8fea-800d23dc0035","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a8f28c9e-edb1-4814-9ab7-31d4da67c6a9","path":"sprites/sPlantB/sPlantB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sSignpost","path":"sprites/sSignpost/sSignpost.yy",},
+    "parent": {"name":"sPlantB","path":"sprites/sPlantB/sPlantB.yy",},
     "resourceVersion": "1.3",
-    "name": "sSignpost",
+    "name": "sPlantB",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"09c690da-b684-4551-bc59-a73670ce7e6f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"904ffafb-7a04-42e9-9ca6-0e8d15715eab","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Entities",
-    "path": "folders/Sprites/Entities.yy",
+    "name": "Environment",
+    "path": "folders/Sprites/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sSignpost",
+  "name": "sPlantB",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSignpost",
-    "path": "sprites/sSignpost/sSignpost.yy",
+    "name": "sPlantA",
+    "path": "sprites/sPlantA/sPlantA.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,14 +26,14 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"entityHitScript","path":"objects/oEntity/oEntity.yy",},"objectId":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"value":"EntityHitSolid","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"entityHitScript","path":"objects/oEntity/oEntity.yy",},"objectId":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"value":"EntityHitDestroy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Entities",
     "path": "folders/Objects/Entities.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSignpost",
+  "name": "oPlant",
   "tags": [],
   "resourceType": "GMObject",
 }
