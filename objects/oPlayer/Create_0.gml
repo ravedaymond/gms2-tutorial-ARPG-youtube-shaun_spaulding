@@ -22,3 +22,10 @@ spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;
 spriteIdle = sPlayer;
 local_image_index = 0;
+
+// Handle room transition placement
+if(global.targetX != -1) {
+	x = global.targetX;
+	y = global.targetY;
+	direction = global.targetDirection;
+}
