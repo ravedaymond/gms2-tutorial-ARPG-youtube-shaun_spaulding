@@ -6,6 +6,9 @@ if(instance_exists(oPlayer) && position_meeting(oPlayer.x, oPlayer.y, id)) {
 	global.targetY = targetY;
 	global.targetDirection = oPlayer.direction;
 	
-	room_goto(targetRoom);
+	// Ensure player is in transition state
+	with(oPlayer) state = PlayerStateTransition;
+	RoomTransition(TRANSITION_TYPE.SLIDE, targetRoom);
+
 	instance_destroy();
 }

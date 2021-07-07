@@ -15,7 +15,7 @@ function PlayerCollision(){
 	}
 	
 	// Check for horizontal entities
-	var _entityCount = instance_position_list(x+hSpeed,y, oEntity, _entityList, false);
+	var _entityCount = instance_position_list(x+hSpeed, y, oEntity, _entityList, false);
 	var _snapX;
 	while(_entityCount > 0) {
 		var _entityCheck = _entityList[| 0];
@@ -32,10 +32,10 @@ function PlayerCollision(){
 			_entityCount--;
 		}
 	}
-	ds_list_clear(_entityList);
-	
 	// Commit horizontal movement
 	x += hSpeed;
+	
+	ds_list_clear(_entityList);
 	
 	// Vertical Tiles
 	if(tilemap_get_at_pixel(collisionMap, x, y+vSpeed)) {
@@ -46,7 +46,7 @@ function PlayerCollision(){
 	}
 	
 	// Check for vertical entities
-	_entityCount = instance_position_list(x,y+vSpeed, oEntity, _entityCount, false);
+	_entityCount = instance_position_list(x, y+vSpeed, oEntity, _entityCount, false);
 	var _snapY;
 	while(_entityCount > 0) {
 		var _entityCheck = _entityList[| 0];
@@ -63,10 +63,11 @@ function PlayerCollision(){
 			_entityCount--;
 		}
 	}
-	ds_list_destroy(_entityList);
 	
 	// Commit vertical movement
 	y += vSpeed;
+	
+	ds_list_destroy(_entityList);
 	
 	return _collision;
 }
