@@ -2,6 +2,8 @@
 image_speed = 0;
 z = 0;
 
+lifted = false;
+
 #region Shaders
 flash = 0;
 uFlash = shader_get_uniform(shWhiteFlash, "flash");
