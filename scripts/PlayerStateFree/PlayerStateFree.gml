@@ -30,17 +30,22 @@ function PlayerStateFree(){
 	if(keyActivate) {
 		// 1. Check for entity to activate
 		// 2. If there is nothing, or there is something but something has no script
-		// 2a. Roll
-		// 2b. Else, there is something and it has a script, activate somethings script
-		// 2c. If the something being activated is an npc, turn npc to face player
+			// 2a. If we aren't carrying something, roll!
+			// 2b. If we are carring something, throw it!
+		// 3. Else, there is something and it has a script, activate somethings script
+			// 3a. If the something being activated is an npc, turn npc to face player
 		
 		var _activateX = lengthdir_x(10, direction);
 		var _activateY = lengthdir_y(10, direction);
 		activate = instance_position(x+_activateX, y+_activateY, oEntity);
 		
 		if(activate == noone || activate.entityActivateScript == -1) {
-			state = PlayerStateRoll;
-			moveDistanceRemaining = distanceRoll;
+			if(global.iLifted == noone) {
+				state = PlayerStateRoll;
+				moveDistanceRemaining = distanceRoll;	
+			} else {
+				PlayerThrow();
+			}
 		} else {
 			script_execute_array(activate.entityActivateScript, activate.entityActivateArgs);
 			

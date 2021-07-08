@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Player",
-    "path": "folders/Scripts/Player.yy",
+    "name": "General",
+    "path": "folders/Scripts/Player/General.yy",
   },
   "resourceVersion": "1.0",
-  "name": "PlayerStates",
+  "name": "PlayerThrow",
   "tags": [],
   "resourceType": "GMScript",
 }

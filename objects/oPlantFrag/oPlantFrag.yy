@@ -29,8 +29,8 @@
     {"propertyId":{"name":"bounceCount","path":"objects/oFragment/oFragment.yy",},"objectId":{"name":"oFragment","path":"objects/oFragment/oFragment.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Objects/Entities.yy",
+    "name": "Environment",
+    "path": "folders/Objects/Entities/Environment.yy",
   },
   "resourceVersion": "1.0",
   "name": "oPlantFrag",

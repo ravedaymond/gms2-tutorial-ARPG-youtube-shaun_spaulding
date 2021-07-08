@@ -33,8 +33,8 @@
     {"propertyId":{"name":"entityCollision","path":"objects/oEntity/oEntity.yy",},"objectId":{"name":"oEntity","path":"objects/oEntity/oEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Entities",
-    "path": "folders/Objects/Entities.yy",
+    "name": "NPCs",
+    "path": "folders/Objects/Entities/NPCs.yy",
   },
   "resourceVersion": "1.0",
   "name": "oNpcQuest",

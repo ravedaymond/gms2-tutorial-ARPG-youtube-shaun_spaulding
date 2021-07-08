@@ -3,6 +3,7 @@ image_speed = 0;
 z = 0;
 
 lifted = false;
+thrown = false;
 
 #region Shaders
 flash = 0;

@@ -17,4 +17,5 @@
 #macro OUT 0
 #macro IN 1
 
-#macro LIFTABLE_HEIGHT 13
+#macro LIFTED_HEIGHT 13
+#macro THROWN_SPEED 3
