@@ -19,3 +19,13 @@
 
 #macro LIFTED_HEIGHT 13
 #macro THROWN_SPEED 3
+
+enum ENEMYSTATE {
+	IDLE,
+	WANDER,
+	CHASE,
+	ATTACK,
+	HURT,
+	DIE,
+	WAIT
+}

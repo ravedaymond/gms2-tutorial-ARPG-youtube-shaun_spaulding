@@ -44,7 +44,7 @@ function PlayerStateFree(){
 			_activateY - _activateSize, 
 			_activateX + _activateSize, 
 			_activateY + _activateSize, 
-			oEntity, 
+			pEntity, 
 			false, 
 			true, 
 			_activateList, 

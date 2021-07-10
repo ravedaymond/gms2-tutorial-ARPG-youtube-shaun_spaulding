@@ -3,7 +3,7 @@
 function CalcAttack(hitbox){
 	mask_index = hitbox;
 	var hitByAttackNow = ds_list_create();
-	var hits = instance_place_list(x, y, oEntity, hitByAttackNow, false);
+	var hits = instance_place_list(x, y, pEntity, hitByAttackNow, false);
 	if(hits > 0) {
 		for(var i = 0; i < hits; i++) {
 			// If this instance has not yet been hit by this attack, then hit it
