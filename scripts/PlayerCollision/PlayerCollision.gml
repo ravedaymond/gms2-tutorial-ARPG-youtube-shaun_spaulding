@@ -27,14 +27,14 @@ function PlayerCollision(){
 			hSpeed = 0;
 			_collision = true;
 			_entityCount = 0;
-		} else {
-			ds_list_delete(_entityList, 0);
-			_entityCount--;
 		}
+		ds_list_delete(_entityList, 0);
+		_entityCount--;
 	}
 	// Commit horizontal movement
 	x += hSpeed;
 	
+	// Clear list between axis
 	ds_list_clear(_entityList);
 	
 	// Vertical Tiles
@@ -46,7 +46,7 @@ function PlayerCollision(){
 	}
 	
 	// Check for vertical entities
-	_entityCount = instance_position_list(x, y+vSpeed, oEntity, _entityCount, false);
+	_entityCount = instance_position_list(x, y+vSpeed, oEntity, _entityList, false);
 	var _snapY;
 	while(_entityCount > 0) {
 		var _entityCheck = _entityList[| 0];
@@ -58,10 +58,9 @@ function PlayerCollision(){
 			vSpeed = 0;
 			_collision = true;
 			_entityCount = 0;
-		} else {
-			ds_list_delete(_entityList, 0);
-			_entityCount--;
 		}
+		ds_list_delete(_entityList, 0);
+		_entityCount--;
 	}
 	
 	// Commit vertical movement
