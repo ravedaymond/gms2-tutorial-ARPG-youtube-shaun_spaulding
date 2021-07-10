@@ -34,12 +34,34 @@ function PlayerStateFree(){
 			// 2b. If we are carring something, throw it!
 		// 3. Else, there is something and it has a script, activate somethings script
 			// 3a. If the something being activated is an npc, turn npc to face player
+		var _activateX = x+lengthdir_x(10, direction);
+		var _activateY = y+lengthdir_y(10, direction);
+		var _activateSize = 4;
+		var _activateList = ds_list_create();
+		activate = noone;
+		var _entitiesFound = collision_rectangle_list(
+			_activateX - _activateSize, 
+			_activateY - _activateSize, 
+			_activateX + _activateSize, 
+			_activateY + _activateSize, 
+			oEntity, 
+			false, 
+			true, 
+			_activateList, 
+			false
+		);
 		
-		var _activateX = lengthdir_x(10, direction);
-		var _activateY = lengthdir_y(10, direction);
-		activate = instance_position(x+_activateX, y+_activateY, oEntity);
+		// If the first instance we find is either our lifted entity or it has no script: try the next one
+		while(_entitiesFound > 0) {
+			var _check = _activateList[| --_entitiesFound]; // --var substracts 1 from value before returning, var-- returs the value then subtracts 1
+			if(_check != global.iLifted && _check.entityActivateScript != -1) {
+				activate = _check;
+				break;
+			}
+		}
+		ds_list_destroy(_activateList);
 		
-		if(activate == noone || activate.entityActivateScript == -1) {
+		if(activate == noone) {
 			if(global.iLifted == noone) {
 				state = PlayerStateRoll;
 				moveDistanceRemaining = distanceRoll;	
