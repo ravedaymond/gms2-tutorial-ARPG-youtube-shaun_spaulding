@@ -10,12 +10,17 @@ vSpeed = 0;
 xTo = xstart;
 yTo = ystart;
 dir = 0;
+aggroCheck = 0;
+aggroCheckDuration = 5;
+
+// Enemy Sprites
+sprMove = -1;
+
+// Enemy Stats
 timePassed = 0; // Safety check to give up on stuck tasks
 waitDuration = 60;
 wait = 0;
 
-// Enemy Sprites
-sprMove = sSlime;
 
 // Enemy Functions
 enemyScript[ENEMYSTATE.IDLE] = -1;

@@ -36,4 +36,14 @@ function EnemySlimeWander(){
 		EnemyTileCollision();
 		
 	}
+	
+	// Check for aggro
+	if(++aggroCheck >= aggroCheckDuration) {
+		aggroCheck = 0;
+		if(instance_exists(oPlayer) && point_distance(x, y, oPlayer.x, oPlayer.y) <= enemyAggroRadius) {
+			state = ENEMYSTATE.CHASE;
+			target = oPlayer; // For the tutorial, is pretty much never used. Was added for flexibility
+			// with the entity system that isn't really needed for the purpose of the tutorial
+		}
+	}
 }

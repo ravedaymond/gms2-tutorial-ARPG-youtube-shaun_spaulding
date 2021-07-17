@@ -47,6 +47,7 @@
     {"id":{"name":"PlayerStateRoll","path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},"order":4,},
     {"id":{"name":"sPlayerRoll","path":"sprites/sPlayerRoll/sPlayerRoll.yy",},"order":4,},
     {"id":{"name":"sShadow","path":"sprites/sShadow/sShadow.yy",},"order":7,},
+    {"id":{"name":"EnemySlimeChase","path":"scripts/EnemySlimeChase/EnemySlimeChase.yy",},"order":1,},
     {"id":{"name":"PlayerAnimateSprite","path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},"order":1,},
     {"id":{"name":"oNpcQuest","path":"objects/oNpcQuest/oNpcQuest.yy",},"order":0,},
     {"id":{"name":"sPlantB","path":"sprites/sPlantB/sPlantB.yy",},"order":1,},
