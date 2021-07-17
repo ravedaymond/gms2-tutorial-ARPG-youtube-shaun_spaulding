@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Environment",
-    "path": "folders/Sprites/Environment.yy",
+    "path": "folders/Sprites/Entities/Environment.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlantB",
