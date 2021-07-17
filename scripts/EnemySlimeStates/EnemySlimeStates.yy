@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Slime",
-    "path": "folders/Scripts/Enemies/Slime.yy",
+    "name": "Enemies",
+    "path": "folders/Scripts/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "EnemySlimeWander",
+  "name": "EnemySlimeStates",
   "tags": [],
   "resourceType": "GMScript",
 }
