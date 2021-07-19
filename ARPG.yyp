@@ -19,6 +19,7 @@
     {"id":{"name":"script_execute_array","path":"scripts/script_execute_array/script_execute_array.yy",},"order":0,},
     {"id":{"name":"fText","path":"fonts/fText/fText.yy",},"order":0,},
     {"id":{"name":"sSlime","path":"sprites/sSlime/sSlime.yy",},"order":0,},
+    {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"order":0,},
     {"id":{"name":"sPlantA","path":"sprites/sPlantA/sPlantA.yy",},"order":0,},
     {"id":{"name":"EnemyWait","path":"scripts/EnemyWait/EnemyWait.yy",},"order":2,},
     {"id":{"name":"oPlantB","path":"objects/oPlantB/oPlantB.yy",},"order":1,},
@@ -28,6 +29,7 @@
     {"id":{"name":"sPlayerAttackSlash","path":"sprites/sPlayerAttackSlash/sPlayerAttackSlash.yy",},"order":1,},
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},"order":1,},
     {"id":{"name":"PlayerStateAct","path":"scripts/PlayerStateAct/PlayerStateAct.yy",},"order":0,},
+    {"id":{"name":"oUI","path":"objects/oUI/oUI.yy",},"order":2,},
     {"id":{"name":"EnemySlimeStates","path":"scripts/EnemySlimeStates/EnemySlimeStates.yy",},"order":3,},
     {"id":{"name":"sSlimeHurt","path":"sprites/sSlimeHurt/sSlimeHurt.yy",},"order":3,},
     {"id":{"name":"DialogueResponses","path":"scripts/DialogueResponses/DialogueResponses.yy",},"order":2,},
@@ -125,6 +127,7 @@
     {"folderPath":"folders/Objects/Entities/Enemies.yy","order":11,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Enemies.yy","order":11,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Entities/Enemies.yy","order":3,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Interface.yy","order":10,"resourceVersion":"1.0","name":"Interface","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
