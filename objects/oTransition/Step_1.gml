@@ -1,7 +1,9 @@
 /// @description Progress transition
 // Lock player in Transition state
-with(oPlayer) state = PlayerStateTransition;
 
+with(oPlayer) {
+	if(state != PlayerStateDead) state = PlayerStateTransition;
+}
 if(leading == OUT) {
 	// Add the smaller of the two values to percent, prevents going above 1
 	percent = min(1, percent+TRANSITION_SPEED);

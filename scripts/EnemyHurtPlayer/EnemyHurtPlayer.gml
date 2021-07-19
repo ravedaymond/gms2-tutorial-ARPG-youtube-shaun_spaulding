@@ -13,7 +13,7 @@ function EnemyHurtPlayer(_damage, _direction, _force){
 				invulnerable = 60;
 			}
 		} else {
-			// Kill the player	
+			with(oPlayer) state = PlayerStateDead;
 		}
 	}
 }
