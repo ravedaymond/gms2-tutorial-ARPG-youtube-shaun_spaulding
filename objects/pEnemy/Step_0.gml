@@ -5,3 +5,7 @@ if(!global.gamePaused) {
 	}
 	depth = -bbox_bottom;
 }
+
+if(enemyTouchAttack && place_meeting(x, y, oPlayer)) {
+	EnemyHurtPlayer(enemyTouchDamage, point_direction(x, y, oPlayer.x, oPlayer.y), enemyTouchForce);
+}

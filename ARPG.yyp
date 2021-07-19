@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"EnemyHurtPlayer","path":"scripts/EnemyHurtPlayer/EnemyHurtPlayer.yy",},"order":4,},
     {"id":{"name":"sTextBoxBg","path":"sprites/sTextBoxBg/sTextBoxBg.yy",},"order":2,},
     {"id":{"name":"pEnemy","path":"objects/pEnemy/pEnemy.yy",},"order":2,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":0,},
@@ -20,6 +21,7 @@
     {"id":{"name":"fText","path":"fonts/fText/fText.yy",},"order":0,},
     {"id":{"name":"sSlime","path":"sprites/sSlime/sSlime.yy",},"order":0,},
     {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},"order":0,},
+    {"id":{"name":"shRedFlash","path":"shaders/shRedFlash/shRedFlash.yy",},"order":1,},
     {"id":{"name":"sPlantA","path":"sprites/sPlantA/sPlantA.yy",},"order":0,},
     {"id":{"name":"EnemyWait","path":"scripts/EnemyWait/EnemyWait.yy",},"order":2,},
     {"id":{"name":"oPlantB","path":"objects/oPlantB/oPlantB.yy",},"order":1,},
