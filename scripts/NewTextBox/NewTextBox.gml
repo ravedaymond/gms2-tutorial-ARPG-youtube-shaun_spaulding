@@ -3,7 +3,7 @@
 
 /// @arg Message
 /// @arg Background
-/// @arg Responses[]
+/// @arg [Responses]
 function NewTextBox(_text){
 	var _obj;
 	if(instance_exists(oText)) _obj = oTextQueued; else _obj = oText;
